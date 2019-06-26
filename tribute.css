@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(196, 96%, 34%);
+  font-family: Calibri, sans-serif;
+  color: hsl(196, 0%, 43%, 1);
+}
+#img-div {
+  background-color: hsla(238, 9%, 80%, 0.5);
+  background-size: contain;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+#img-caption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#maintext {
+  margin: auto;
+  padding: 10px;
+}
+p {
+  width: 75vmin;
+  margin: auto;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: hsla(17, 43%, 35%, 1.0);
+}
+footer {
+  margin: auto;
+  font-size: .75em;
+  text-align: center;
+}
