@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Forms</title>
+  <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div id="wrapper">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This survey form is intended to gather information on your favorite fandoms.</p>
+  <form id="survey-form" action="index.html" method="post">
+      <div id="Personal">
+        <h2>Personal Information</h2>
+          <label class="form-items" for="full-name" id="name-label">Full Name: <input type="text" id="name" name="first-name-input" placeholder="John Doe" required></label><br/>
+          <label class="form-items" for="email" id="email-label">Email Address: <input type="email" id="email" name="email-input" placeholder="example@domain.com" required></label><br/>
+          <label class="form-items" for="age" id="number-label">Age: <input type="number" id="number" name="age-input" placeholder="0" min="0" max="100" required></label><br/>
+      </div>
+      <div id="shows">
+        <h2 id="checkbox-label" for="choose-shows">Which shows do you watch? <span>(Choose as many as you want!)</span></h2>
+          <label class="form-items" for="GoT"><input type="checkbox" name="shows" value="GoT">Game of Thrones</label><br/>
+          <label class="form-items" for="Supernatural"><input type="checkbox" name="shows" value="supernatural">Supernatural</label><br/>
+          <label class="form-items" for="StarTrek"><input type="checkbox" name="shows" value="startrek">Star Trek</label><br/>
+          <label class="form-items" for="TNG"><input type="checkbox" name="shows" value="tng">Star Trek: The Next Generation</label><br/>
+          <label class="form-items" for="SG1"><input type="checkbox" name="shows" value="sg1">Stargate: SG1</label><br/>
+          <label class="form-items" for="SGA"><input type="checkbox" name="shows" value="sga">Stargate: Atlantis</label><br/>
+      </div>
+      <div id="comic">
+        <h2 id="comic-label" for="choose-comic">Which do you prefer, Marvel or DC?</h2>
+          <label class="form-items" for="marvel"><input type="radio" name="comic" id="marvel" value="marvel">Marvel</label><br/>
+          <label class="form-items" for="DC"><input type="radio" name="comic" id="DC" value="DC">DC</label><br/>
+      </div>
+      <div id="dropdown">
+      <h2>Would you consider yourself a...</h2>
+      <select id="dropdown" name="dropdown">
+        <option value="geek">Geek</option>
+        <option value="nerd">Nerd</option>
+        <option value="normal">Normal</option>
+      </select>
+      <br/>
+      <label for="additional"><h2>Additional Comments: </h2><textarea name="additional" rows="8" cols="80"></textarea></label><br/>
+      <button type="submit" name="submit" id="submit">Submit</button>
+    </div>
+  </form>
+  <footer>Copywright &copy; Kieron Roberson 2019</footer>
+</div>
+</body>
+</html>
