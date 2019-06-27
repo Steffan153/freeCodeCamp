@@ -2,6 +2,7 @@ body {
   background-color: hsl(196, 96%, 34%);
   font-family: Calibri, sans-serif;
   color: #000;
+  margin: 15px;
 }
 #main{
   background-color: hsla(238, 9%, 80%, 0.5);
@@ -12,9 +13,13 @@ body {
   margin: auto;
   padding: 20px;
 }
+header {
+  height: 50px;
+}
 h1 {
   margin: auto;
   text-align: center;
+  padding-top: 20px;
 }
 img {
   max-width: 100%;
@@ -26,7 +31,8 @@ img {
 #img-caption {
   text-align: center;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  font-family: sans-serif;
 }
 #maintext {
   margin: auto;
@@ -35,6 +41,10 @@ img {
 p {
   width: 75vmin;
   margin: auto;
+}
+#tribute-info {
+  text-align: center;
+  padding: 5px;
 }
 a {
   color: inherit;
@@ -46,4 +56,5 @@ footer {
   margin: auto;
   font-size: .75em;
   text-align: center;
+  padding: 5px;
 }
