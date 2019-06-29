@@ -1,0 +1,119 @@
+
+body {
+  font-family: calibri, arial, sans-serif;
+  font-size: 1.25em;
+  background-image: url(https://github.com/KieronGrace/freeCodeCamp/blob/master/cubeframes.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsla(0, 0%, 25%, 1);
+}
+#content {
+  background-color: hsla(0, 0%, 92%, .75);
+  width: 80%;
+  margin: auto;
+  margin-top: 125px;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  background-color: hsla(0, 0%, 50%, .95);
+  color: hsla(0, 0%, 92%, .75);
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  font-size: 1em;
+  flex-direction: row;
+}
+#nav-bar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: hsla(0, 0%, 92%, .95);
+  flex-direction: row;
+  align-items: center;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-end;
+}
+li {
+  display: inline;
+  margin: auto;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: hsla(0, 0%, 25%, 1);
+  font-weight: bold;
+}
+a:hover {
+  color: hsla(0, 100%, 45%, 1);
+}
+a:visited {
+  color: hsla(0, 0%, 50%, .75);
+}
+#info {
+  display: block;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 10px;
+}
+P {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}
+#video {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 50px;
+}
+#prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 15px;
+  Margin: 50px;
+}
+.price {
+  background-color: hsla(0, 0%, 92%, 1);
+  margin: 7px;
+  border-color: hsla(0, 0%, 25%, 1);
+  border-style: dashed;
+  border-width: thin;
+}
+form {
+  display: block;
+  text-align: center;
+  width: 400px;
+  border-color: hsla(0, 0%, 25%, 1);
+  border-style: dashed;
+  border-width: thin;
+  background-color: hsla(0, 0%, 92%, 1);
+  margin: auto;
+  padding: 15px;
+}
+.formitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#email {
+  margin-left: 10px;
+}
+#submit {
+  margin: 0;
+}
+footer {
+  font-size: .6em;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
