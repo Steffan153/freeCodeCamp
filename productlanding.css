@@ -54,7 +54,7 @@ h1 {
   margin-bottom: 50px;
   padding-top: 10px;
 }
-P {
+p {
   width: 60%;
   margin: auto;
   padding: 10px;
@@ -102,10 +102,14 @@ form {
 }
 #email {
   margin-left: 10px;
-  border-style: solid;
-  border-color: hsla(0, 0%, 25%, 1);
-  border-width: thin;
-  padding: 2px;
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 6px;
+  outline: none;
+  transition: box-shadow .3s;
+}
+#email:hover {
+  box-shadow: 0 1px 10px #999;
 }
 #submit {
   background-color: hsla(0, 0%, 92%, 1);
